@@ -7,7 +7,7 @@ import Swal from 'sweetalert2';
 import { FaKey } from "react-icons/fa6";
 
 export default function LoginPage() {
-  const [password, setPassword] = useState("realtime");
+  const [password, setPassword] = useState("");
   const [error, setError] = useState("");
   const [Loading, setLoading] = useState("OPEN");
   const router = useRouter();
